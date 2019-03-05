@@ -2,27 +2,27 @@ const guid = process.env.NETLIFY_GOOGLE_ANALYTICS_ID;
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Serif',
-    description: 'my theme',
+    title: 'CTM Advogados',
+    description: 'CTM Advogados',
     contact: {
-      phone: 'XXX XXX XXX',
-      email: 'zerostaticthemes@gmail.com',
+      phone: '22 110 6669',
+      email: 'geral@ctm-advogados.pt',
     },
     menuLinks: [
       {
-        name: 'Services',
+        name: 'Apresentação',
         link: '/services',
       },
       {
-        name: 'Team',
+        name: 'Equipa',
         link: '/team',
       },
       {
-        name: 'Testimonials',
+        name: 'Comunicação',
         link: '/testimonials',
       },
       {
-        name: 'Contact',
+        name: 'Contacto',
         link: '/contact',
       },
     ],
